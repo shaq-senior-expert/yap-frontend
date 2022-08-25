@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="src/env.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <span id="welcome-tag" class="navbar-brand mb-0 h1"> <img id="logo" src="src/images/logo.png" alt="logo"> </span>
+    
+        <button id= "logout" type="button" class="btn btn-secondary btn-sm" onclick="logout()">Log Out</button>
+    </nav>
+
+    
+
+
+    <!-- <h1 id="welcome-tag">create a logo here!</h1> -->
+    <div class="container">
+ 
+        <!-- class="jumbotron my-4 background" for welcome hdr -->
+        <header id="welcome-hdr">
+            <div id="write-review-form"></div>
+            <div id="signup-div"></div>
+            <div id="login-div"></div>
+            <div id="results"></div>
+            <div id="business-show"></div>
+            <div id="background">
+
+                <button id="write-review" class="btn btn-secondary btn-sm">Write a review here!</button><br><br>
+
+                <form class="input-group mb-3" id="search-bar">
+                    <input id="search-bar-input" type="text" class="form-control" placeholder="Search Restaurant">
+                    <div class="input-group-append">
+                        <input class="btn btn-secondary" type="submit" value="Search">
+                    </div>
+                </form> <br>
+                <div id="search-result" class="list-group search"> </div>
+            </div>
+        </header>
+        <!-- class="card-deck"  -->
+        <i id ="sort" class="fas fa-sort fa-2x float-right" data-type="asc"></i>
+        <div id="business-list" class="card-deck">
+
+            <!-- <div id="newlyCreated" class="card-deck"></div> -->
+        </div>
+
+        <!--- bootstrap--->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+        
+        <script src="src/user.js"></script>
+        <script src="src/review.js"></script>
+        <script src="src/business.js"></script>
+        <script src="src/API.js"></script>
+        <script src="src/app.js"></script>
+        <script src="src/index.js"></script>
+        <div>
+</body>
+
+</html>

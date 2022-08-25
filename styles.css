@@ -1,0 +1,75 @@
+.background{
+    background-image: url("src/images/Wide-Table-Shot-01.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body, html {
+    height: 100%;
+    margin: 1px;
+    background: linear-gradient(0deg, #fff,#fff);
+}
+
+#search-bar{
+    margin: auto;
+    width: 40%;
+    padding-top: 150px;
+    /* padding-bottom: 150px; */
+}
+
+.search{
+    margin: auto;
+    width: 50%;
+}
+
+#business-list{
+    padding-top: 50px;
+}
+
+#logo{
+    width: 60px;
+    height: 50px;
+}
+
+#welcome-tag:hover{
+    cursor: pointer;
+}
+
+.bz-desc{
+    width:150px;
+    height:200px;
+    overflow: hidden;
+}
+
+.read-more{
+    padding-left: 70px;
+}
+
+
+
+#bz-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#bz-img img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+#search-result{
+    padding-bottom: 200px;
+}
+
+.rating{
+    display: inline-block;
+}
+
+i{
+    padding-top: 5px;
+    color: rgb(108,117,125)
+}
